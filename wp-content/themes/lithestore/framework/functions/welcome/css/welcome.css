@@ -1,0 +1,70 @@
+.about-wrap .col.two-col {
+  margin-bottom: 0px; 
+  border-bottom:1px solid #ddd;
+  padding-bottom:30px;
+ }
+
+.about-wrap .col.two-col .col{
+  width:46%;
+  margin-right:40px;
+}
+.about-wrap .col.two-col .col:last-child{
+  margin-right:0;
+}
+
+.about-wrap .col2-set::after {
+  clear: both;
+  content: "";
+  display: table; 
+}
+
+.about-wrap .col2-set .col-1,
+.about-wrap .col2-set .col-2 {
+  width: 48%;
+  float: left; 
+ }
+
+.about-wrap .col2-set .col-2 {
+  float: right; 
+ }
+
+.about-wrap h1 {
+    margin: .2em 200px 0 0;
+    padding: 0;
+    color: #32373c;
+    line-height: 1.2em;
+    font-size: 2.8em;
+    font-weight: 400;
+    clear: both;
+    float: none;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+}
+.about-wrap h2{
+    text-align:left;
+    font-size: 2em
+}
+.about-wrap .news h5{
+	margin-bottom:5px;
+}
+.about-wrap .date{
+  font-size:12px;
+}
+.about-wrap .themes a img{
+	width:43%;
+	margin:0 10px 10px 0;
+}
+.about-wrap .col li{
+	padding:10px 0;
+	border-bottom:1px solid #ddd;
+}
+.about-wrap .col li:last-child{
+	border:none;
+}
+.about-wrap .questions{
+	height:700px;
+	overflow: auto;
+}
